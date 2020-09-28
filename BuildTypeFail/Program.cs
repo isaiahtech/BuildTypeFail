@@ -37,6 +37,10 @@ namespace BuildTypeFail
             decimal myDecimal = (decimal)myLong;
 
             myString = myString + myInt + myByte + myDouble + myChar;
+
+            long number = 139401930;
+            string text = "Player score: " + number;
+            text = number;
         }
     }
 }
